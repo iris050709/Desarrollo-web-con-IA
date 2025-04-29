@@ -1,0 +1,41 @@
+/*
+BEM = BLOQUE ELEMENTO MODIFICADOR
+
+SE USA SIEMPRE CLASS NO ID
+
+CLASS = APLICAR ESTILOS
+ID = APLICAR FUNCIONALIDAD (JAVASCRIPT)
+
+.bloque
+.bloque__elemento
+.bloque__elemento--modificador
+*/
+
+
+.cards{
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 20px;
+    border-radius: 5px;
+}
+
+.cards .card {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    background-color: lightblue;
+    margin: 5px;
+}
+
+.cards .card h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cards .card a{
+    background: green;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
