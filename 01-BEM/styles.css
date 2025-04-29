@@ -9,9 +9,48 @@ ID = APLICAR FUNCIONALIDAD (JAVASCRIPT)
 .bloque
 .bloque__elemento
 .bloque__elemento--modificador
+1. NO USAR ID
+2. NO USAR ETIQUETAS
+3. QUE TODO SEA UN KEY SELECTOR (SELECCIONAR JUSTO ELEMENTO AL CUAL SE LE DARAN ESTILOS)
 */
 
+/*BEM*/
+.cards{
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 20px;
+    border-radius: 5px;
+}
 
+.cards__card {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    background-color: lightblue;
+    margin: 5px;
+}
+
+/*CLAVE*/ /*KEY SELECTOR*/
+
+.card__title{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card__link{
+    background: green;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.card__link--rojo{
+    background-color: red;
+}
+
+/*CLASICA*/
+/*
 .cards{
     width: 400px;
     margin: 10px auto;
@@ -27,7 +66,9 @@ ID = APLICAR FUNCIONALIDAD (JAVASCRIPT)
     background-color: lightblue;
     margin: 5px;
 }
-
+*/
+/*CONTEXTO*/ /*CLAVE*/
+/*
 .cards .card h3{
     font-size: 24px;
     font-weight: bold;
@@ -39,3 +80,4 @@ ID = APLICAR FUNCIONALIDAD (JAVASCRIPT)
     padding: 10px;
     text-decoration: none;
 }
+*/
